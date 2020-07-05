@@ -1,0 +1,37 @@
+class Solution {
+public:
+      int t[46];
+    int climbStairs(int n) {
+        int p;
+      
+        t[0] = 0;
+            t[1] =1;
+            t[2] = 2;
+        
+        for(int i=3;i<n;i++)
+        {
+            t[i] = 0;
+        }
+        
+        if(n==1 || n==2)
+            return n;
+        else{
+            
+     if(t[n-1]==0)
+         t[n-1] = climbStairs(n-1);
+            
+    if(t[n-2]==0)
+     t[n-2] = climbStairs(n-2);
+            
+        
+             t[n] =   t[n-1] + t[n-2];
+            return t[n];
+        }
+            
+          
+        
+        
+        
+        
+    }
+};

@@ -1,0 +1,34 @@
+class Solution {
+public:
+    vector<string> buildArray(vector<int>& target, int n) {
+        
+        vector <string> res; 
+       int m = target.size();
+       int x= 0;
+       int p= *max_element(target.begin(),target.end());;
+        for(int i=1;i<=p;i++)
+        {  
+            
+        {
+            if(binary_search(target.begin(), target.end(), i))
+            {
+                res.push_back("Push");
+                
+            }
+            else{
+                res.push_back("Push");
+                res.push_back("Pop");
+    
+            }
+        }
+        
+        }
+           
+        
+       
+     
+      
+        
+        return res;
+    }
+};

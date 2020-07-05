@@ -1,0 +1,45 @@
+class Solution {
+public:
+      void reverse(string& add){
+        string addTo = "";
+        
+        for(int i = add.length() - 1; i >= 0; i--){
+            addTo += add[i];
+        }
+        
+        add = addTo;
+    }
+  
+    
+    string removeDuplicates(string s) {
+       string res="";
+   
+        stack <char> s1;
+    
+        
+        for(int i=0;i<s.length();i++)
+        {
+            if(s1.empty())
+                s1.push(s[i]);
+          else  if(s1.top() == s[i])
+            {
+                s1.pop();
+            }
+            else
+            {
+            s1.push(s[i]);
+    
+            } 
+        }
+ 
+     while(!s1.empty())
+     {
+         res+=s1.top();
+         s1.pop();
+     }
+        reverse(res);
+         
+        
+   return res;
+    }
+};
