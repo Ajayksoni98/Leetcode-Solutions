@@ -21,6 +21,7 @@
 | 3  |  [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)| [Build an Array With Stack Operations](https://github.com/Ajayksoni98/Leetcode-Solutions/blob/master/Stack/Build%20An%20Array%20with%20Stack%20operations.txt)  | Easy  |O(n)  |  O(n) |
 | 4  |  [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)| [Remove All Adjacent Duplicates In String](https://github.com/Ajayksoni98/Leetcode-Solutions/blob/master/Stack/Remove%20All%20Adjacent%20Duplicate%20In%20String.txt)  | Easy  |O(n)  |  O(n) |
 | 5  |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Valid Parentheses](https://github.com/Ajayksoni98/Leetcode-Solutions/blob/master/Stack/Remove%20All%20Adjacent%20Duplicate%20In%20String.txt)  | Easy  |O(n)  |  O(n) |
+| 6  |  [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)| [ Next Greater Element I](https://github.com/Ajayksoni98/Leetcode-Solutions/blob/master/Stack/Remove%20All%20Adjacent%20Duplicate%20In%20String.txt)  | Easy  |O(n)  |  O(n) |
 
 ### Dynamic Programming ###
  | sr. no| Problem Statement  | Solution   | Difficulty  | Time Complexity | Space Complexity |
